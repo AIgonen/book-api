@@ -45,10 +45,10 @@ Book API on RESTful API, mis võimaldab hallata raamatuid, kasutades JWT autenti
 
 3. **Loo `.env` fail ja lisa andmebaasi konfiguratsioon:**
    ```plaintext
-   DB_HOST=localhost
+   DB_HOST=yourhostname
    DB_PORT=5432
-   DB_NAME=book_api
-   DB_USER=postgres
+   DB_NAME=yourdbname
+   DB_USER=yourusername
    DB_PASSWORD=yourpassword
    DB_SCHEMA=books
    JWT_SECRET=your_jwt_secret
